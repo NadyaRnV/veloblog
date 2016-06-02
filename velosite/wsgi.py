@@ -15,7 +15,7 @@ sys.stdout = sys.stderr
 
 #Rely upon env var 'DYNO` to determine if we are
 #running within Heroku
-os.environ.setdefault("DJANGO_SETTINGS_MODULE", "mysite.settings")
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "velosite.settings")
 
 from django.core.wsgi import get_wsgi_application
 from whitenoise.django import DjangoWhiteNoise
