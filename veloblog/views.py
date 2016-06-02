@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 from django.shortcuts import render
 from veloblog.models import Post 
 from django.views.generic import ListView, DetailView
@@ -9,5 +10,3 @@ class PostsListView(ListView): # представление в виде спис
 class PostDetailView(DetailView): # детализированное представление модели
     model = Post
 
-def index(request):
-    return HttpResponse("Rango says hey there world!")
