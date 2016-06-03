@@ -1,1 +1,1 @@
-web: gunicorn veloblog.wsgi --log-file -
+web: gunicorn velosite.wsgi --log-file -
