@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'veloblog',
+    'disqus',
 ]
 
 MIDDLEWARE_CLASSES = [
@@ -129,3 +130,6 @@ STATIC_URL = '/static/'
 STATICFILES_DIRS = (
     os.path.join(PROJECT_ROOT, 'static'),
 )
+
+DISQUS_API_KEY = 'KD8MmjIxfDJ9dhm23hJV0sPthto4HsfYTKzueU1OSb3qdyAwiyRDOLfaVk4aSxfS'
+DISQUS_WEBSITE_SHORTNAME = 'veloblog.disqus.com'
