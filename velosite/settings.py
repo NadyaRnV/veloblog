@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+     'django.contrib.sites',
     'veloblog',
     'disqus',
 ]
@@ -133,3 +134,5 @@ STATICFILES_DIRS = (
 
 DISQUS_API_KEY = 'KD8MmjIxfDJ9dhm23hJV0sPthto4HsfYTKzueU1OSb3qdyAwiyRDOLfaVk4aSxfS'
 DISQUS_WEBSITE_SHORTNAME = 'veloblog.disqus.com'
+
+SITE_ID = 1
